@@ -1,15 +1,16 @@
-.container{
+.container {
     background-color: #EEEEEE;
 }
 
-.nav-background{
+.nav-background {
     background-image: url(./images/header\ pattern\ svg.svg);
     width: 100%;
     padding: 10px 0;
-    
+
 
 }
-.navigation-section{
+
+.navigation-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,75 +18,88 @@
 
 
 }
-.navbardetails{
-    
-display: flex;
 
-align-items: center;
+.navbardetails {
+
+    display: flex;
+
+    align-items: center;
 
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
 
 }
-li{
+
+li {
     margin: 0 20px;
     list-style: none;
 }
-.imagessection{
+
+.imagessection {
     display: flex;
     justify-content: space-between;
-    
-  
-    
+
+
+
 }
-img{
+
+img {
     padding-left: 20px;
 }
-.CourseAndClass{
+
+.CourseAndClass {
     height: 50px;
-    background-color:#8DDC97;
+    background-color: #8DDC97;
     display: flex;
- 
-   
-  
+
+
+
 }
-.parent-of-coureserandclasses{
+
+.parent-of-coureserandclasses {
     padding: 20px;
 }
-.course{
+
+.course {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
-  
+
 }
-.searchsection{
+
+.searchsection {
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     margin: 20px 0;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
-   
+
 }
-.search  select{
+
+.search select {
     margin-left: 10px;
 }
-.sort{
+
+.sort {
     margin-left: 20px;
 }
 
 .cards {
     display: grid;
-    grid-template-columns:  auto auto;
+    grid-template-columns: auto auto;
     gap: 25px;
     padding: 20px 0;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
@@ -94,33 +108,40 @@ img{
     position: relative;
     border-radius: 2px;
 }
-.card-main{
+
+.card-main {
     display: flex;
 }
-.card-main-left > img {
+
+.card-main-left>img {
     width: 132px;
     height: 157px;
 }
-.card-main-right{
+
+.card-main-right {
     margin-left: 20px;
 }
-.card-main-right > p:nth-child(1) {
+
+.card-main-right>p:nth-child(1) {
     font-size: 18px;
     font-family: bold;
     color: #222222;
     width: 80%;
 }
-.card-main-right > p {
+
+.card-main-right>p {
     color: #666666;
     font-size: 12px;
     font-family: bold;
     margin: 8px;
 }
-.card-main-right > p > b {
+
+.card-main-right>p>b {
     color: #000;
     margin-right: 2px;
 }
-.card-main-right > select {
+
+.card-main-right>select {
     width: 100%;
     padding: 4px 0;
     outline: none;
@@ -129,34 +150,40 @@ img{
     font-size: 16px;
     margin-left: 4px;
 }
-.card-main-right > select:focus{
+
+.card-main-right>select:focus {
     border: none;
 }
+
 .logo {
     display: flex;
     padding: 0 15px;
     justify-content: space-between;
     cursor: pointer;
 }
-.wishlist{
+
+.wishlist {
     width: 30px;
     height: 34px;
     position: absolute;
     right: 20px;
 }
+
 .footer-section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-upper-section {
     color: #1F7A54;
     font-size: small;
     margin: 20px 0;
     text-decoration: none;
 }
-footer{
+
+footer {
     display: flex;
     background: #E0E1E1;
     width: 100vw;
@@ -164,47 +191,49 @@ footer{
     justify-content: center;
     align-items: center;
 }
-footer > img {
+
+footer>img {
     margin-right: 15px;
 }
-footer > hr {
+
+footer>hr {
     margin-right: 15px;
     color: #646464;
     height: 20px;
 }
-footer > p{
+
+footer>p {
     font-size: small;
     font-family: medium;
 }
-footer > p > span {
+
+footer>p>span {
     font-family: bold;
     font-weight: bold;
 }
 
-.footerSection{
+.footerSection {
     background-color: #E0E1E1;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding-bottom:10px ;
+    padding-bottom: 10px;
     margin-top: 10px;
-  }
-  .footer-links {
-    
+}
+
+.footer-links {
+
     display: flex;
     align-content: center;
-   justify-content: center;
-    
-    margin: 10px 0;
-  }
-  
+    justify-content: center;
 
-  
-  
-  .p1{
-    color:#4CAF50;
-  }
+    margin: 10px 0;
+}
+
+.p1 {
+    color: #4CAF50;
+}
 
 
 @media (max-width: 1000px) {
@@ -213,22 +242,26 @@ footer > p > span {
         margin: 0 100px;
     }
 }
+
 @media (max-width: 800px) {
     .cards {
         grid-template-columns: 1fr;
         margin: 0 40px;
     }
 }
+
 @media (max-width: 600px) {
     .cards {
         grid-template-columns: 1fr;
         margin: 0 10px;
     }
 }
+
 @media (max-width: 1024px) {
     nav ul {
         display: none;
     }
+
     .hamburger {
         display: block;
     }
