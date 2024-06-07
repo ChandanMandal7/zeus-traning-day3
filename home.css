@@ -1,0 +1,235 @@
+.container{
+    background-color: #EEEEEE;
+}
+
+.nav-background{
+    background-image: url(./images/header\ pattern\ svg.svg);
+    width: 100%;
+    padding: 10px 0;
+    
+
+}
+.navigation-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+
+}
+.navbardetails{
+    
+display: flex;
+
+align-items: center;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+
+}
+li{
+    margin: 0 20px;
+    list-style: none;
+}
+.imagessection{
+    display: flex;
+    justify-content: space-between;
+    
+  
+    
+}
+img{
+    padding-left: 20px;
+}
+.CourseAndClass{
+    height: 50px;
+    background-color:#8DDC97;
+    display: flex;
+ 
+   
+  
+}
+.parent-of-coureserandclasses{
+    padding: 20px;
+}
+.course{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  
+}
+.searchsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 20px 0;
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+}
+.search  select{
+    margin-left: 10px;
+}
+.sort{
+    margin-left: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:  auto auto;
+    gap: 25px;
+    padding: 20px 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    border-radius: 2px;
+}
+.card-main{
+    display: flex;
+}
+.card-main-left > img {
+    width: 132px;
+    height: 157px;
+}
+.card-main-right{
+    margin-left: 20px;
+}
+.card-main-right > p:nth-child(1) {
+    font-size: 18px;
+    font-family: bold;
+    color: #222222;
+    width: 80%;
+}
+.card-main-right > p {
+    color: #666666;
+    font-size: 12px;
+    font-family: bold;
+    margin: 8px;
+}
+.card-main-right > p > b {
+    color: #000;
+    margin-right: 2px;
+}
+.card-main-right > select {
+    width: 100%;
+    padding: 4px 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+    margin-left: 4px;
+}
+.card-main-right > select:focus{
+    border: none;
+}
+.logo {
+    display: flex;
+    padding: 0 15px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.wishlist{
+    width: 30px;
+    height: 34px;
+    position: absolute;
+    right: 20px;
+}
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-upper-section {
+    color: #1F7A54;
+    font-size: small;
+    margin: 20px 0;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    background: #E0E1E1;
+    width: 100vw;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+}
+footer > img {
+    margin-right: 15px;
+}
+footer > hr {
+    margin-right: 15px;
+    color: #646464;
+    height: 20px;
+}
+footer > p{
+    font-size: small;
+    font-family: medium;
+}
+footer > p > span {
+    font-family: bold;
+    font-weight: bold;
+}
+
+.footerSection{
+    background-color: #E0E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom:10px ;
+    margin-top: 10px;
+  }
+  .footer-links {
+    
+    display: flex;
+    align-content: center;
+   justify-content: center;
+    
+    margin: 10px 0;
+  }
+  
+
+  
+  
+  .p1{
+    color:#4CAF50;
+  }
+
+
+@media (max-width: 1000px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 0 100px;
+    }
+}
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 0 40px;
+    }
+}
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 1024px) {
+    nav ul {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
+}
